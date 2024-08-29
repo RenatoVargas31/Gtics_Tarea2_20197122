@@ -21,7 +21,7 @@ public class TareaController {
     ArrayList<Alumno>alumnos = new ArrayList<>();
     ///////////////////Forma Clásica////////////////////////
 
-    @PostMapping("/registroAlumno")
+    @PostMapping("/registroAlumnos")
     public String registroAlumno(@RequestParam("nombre") String nombre,
                                  @RequestParam("apellido") String apellido,
                                  @RequestParam("DNI") String DNI,
