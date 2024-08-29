@@ -47,7 +47,7 @@ public class TareaController {
 
     ///////////////////DATA BINDING////////////////////////
     /*
-    @PostMapping("/registroAlumno")
+    @PostMapping("/registroAlumnos")
     public String registroAlumno(Alumno alumno) {
         alumnos.add(alumno);
         System.out.println("Alumnos registrados: ");
